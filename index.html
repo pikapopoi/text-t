@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join our secure, easy-to-use chat room and connect with people from around the world. No sign-up required!">
+    <meta name="keywords" content="chat room, real-time messaging, secure chat, online chat">
+    <meta name="author" content="Harsh Rathi">
+    <meta name="robots" content="index, follow">
+    <title>Chat Room - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Navigation bar -->
+    <nav class="navbar">
+        <a class="navbar-brand" href="./index.html">
+            <img src="logo.png" alt="Chat Room Logo" class="logo">
+            Chat Room
+        </a>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="navbar-menu">
+            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="chat.html">Chat</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Intro section -->
+        <section class="intro text-center">
+            <div class="container">
+                <h2 class="display-4">Welcome to Our Chat Room</h2>
+                <p class="lead">Join the conversation now and connect with people from around the world. Our chat room is designed to be fast, secure, and easy to use. No login required!</p>
+                <a href="chat.html" class="btn-primary">Start Chatting</a>
+            </div>
+        </section>
+
+        <!-- Features section -->
+        <section class="features">
+            <div class="container">
+                <div class="feature-box">
+                    <h3>Instant Messaging</h3>
+                    <p>Enjoy real-time conversations with anyone, anywhere.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Secure & Private</h3>
+                    <p>Your conversations are safe and private with our encrypted messaging system.</p>
+                </div>
+                <div class="feature-box">
+                    <h3>Easy to Use</h3>
+                    <p>Start chatting immediately—no login or sign-up required.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Users Say</h2>
+                <blockquote>
+                    <p>"This chat room is incredibly easy to use and very fast!" - ABC</p>
+                </blockquote>
+                <blockquote>
+                    <p>"I love the simplicity and the privacy features. Great job!" - XYZ</p>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta text-center">
+            <div class="container">
+                <h2 class="cta-title">Ready to Chat?</h2>
+                <a href="chat.html" class="btn-success">Join Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Harsh Rathi. All rights reserved.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.navbar-menu').classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
